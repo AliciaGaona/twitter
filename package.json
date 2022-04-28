@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AliciaGaona/twitter/issues"
   },
-  "homepage": "https://github.com/AliciaGaona/twitter#readme"
+  "homepage": "https://github.com/AliciaGaona/twitter#readme",
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
 }
