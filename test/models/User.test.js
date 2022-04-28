@@ -28,7 +28,8 @@ test('Add setters', () =>{
     const user = new User(1,"carlogilmar","Carlo","Bio")
     user.setUserName="Gilmar"
     expect(user.username).toBe("Gilmar")
-    user.setBio="New bio"
-    expect(user.bio).toBe("Bio")
+
+    user.setBio="Newbio"
+    expect(user.bio).toBe("Newbio")
  
 });
