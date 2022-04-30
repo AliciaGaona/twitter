@@ -1,10 +1,10 @@
-const User =require('./../../app/models/User') //indicampos ruta del modelo User a ocupar(require)
+const User =require('./../../app/models/User')
 
 
 class UserService{
- static create(id, username,name){//metodo estatico que solo recibe los parámetros del `id`, `username` y `name`
-     return new User (id. username, name, "Sin bio") //regrtesará un nuevo usuario objeto con los datos que recibe
+ static create(id, username,name){
+     return new User (id. username, name, "Sin bio") 
  }
 }
 
-module.exports=UserService// exporto clase
+module.exports=UserService
