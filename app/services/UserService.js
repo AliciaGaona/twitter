@@ -9,6 +9,11 @@ class UserService{
      listUser.push(1, "carlogilmar", "Carlo","Sin bio")
      return listUser
  }
+
+ static updateUserUsername(user,newUsername){
+    user.username= newUsername
+    return user.username
+}
 }
 
 module.exports=UserService
