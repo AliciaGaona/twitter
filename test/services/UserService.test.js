@@ -1,7 +1,7 @@
 const UserService= require('./../../app/services/UserService')
 
 describe("Test for UserService", ()=>{
-    test("1. Create a new user usaing the UserService", ()=>{
+    test("1. Create a new user using the UserService", ()=>{
         const user = UserService.create(1, "carlogilmar", "Carlo")
         expect(user.username).toBe("carlogilmar")
         expect(user.name).toBe("Carlo")
@@ -9,3 +9,4 @@ describe("Test for UserService", ()=>{
         expect(user.bio).not.toBeUndefined()
     })
 })
+
