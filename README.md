@@ -17,7 +17,7 @@ Weekly Mission 3
 
 . Versionar paso a paso tus cambios en el proyecto.
 
-# Temas vistos sprint 2:
+# Temas vistos sprint 2: (se interactua con modelo creoado en el sprint 1)
 
 - Crear nuevos proyectos de js con npm.
 
