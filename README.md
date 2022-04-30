@@ -15,7 +15,7 @@ Weekly Mission 3
 
 - Conoces cómo funciona TDD y sabes quienes son Ken Beck y Martin Fowler.
 
-. Versionar paso a paso tus cambios en el proyecto.
+- Versionar paso a paso tus cambios en el proyecto.
 
 # Temas vistos sprint 2: (se interactua con modelo creoado en el sprint 1)
 
