@@ -33,3 +33,12 @@ Weekly Mission 3
 
 - Versionar paso a paso tus cambios en el proyecto.
 
+
+# Temas vistos sprint 3: (se agregan vistas para interactuar con modelo y servicio)
+
+- Interaccipón con Modelo de datos y Servicio User
+
+- Uso de toMach de Jest para usar validaciones de errores en pruebas unitarias
+
+[Jest uso match](https://jestjs.io/docs/using-matchers)
+
