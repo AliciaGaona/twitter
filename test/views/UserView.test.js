@@ -11,7 +11,7 @@ describe("Test for UserView", () =>{
     test("Return an error object when try to create a new with a payload with invalid properties", ()=>{
         const payload = {username:null, name:12, id:"id"}
         const result= UserView.createUser(payload)
-        expect(result.error),toMatch(/necesitas terner un valor válido/)
+        expect(result.error).toMatch(/necesitas terner un valor válido/)
     })
 
  })
