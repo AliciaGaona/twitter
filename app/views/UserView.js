@@ -7,8 +7,10 @@ class UserView{
             return {error:"payload no existe"}
         }
         else if(payload.username==null || payload.name==null||payload.id==null){
-            return {error:"necesitan tener un valor válido"}            
+            return {error:"Necesitan tener un valor válido, ningun valor puede ser nulo"}            
         }
+       
+
     
 
 }
