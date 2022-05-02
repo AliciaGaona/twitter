@@ -9,7 +9,7 @@ class UserView{
         else if(payload.username==null || payload.name==null||payload.id==null){
             return {error:"Necesitan tener un valor válido, ningun valor puede ser nulo"}            
         }
-        else if( typeof payload.username==="string" || payload.name==="string"||payload.id==="string"){
+        else if( typeof payload.username==="string" || payload.name==="string"||payload.id==="number"){
             return {error:"Necesitan tener un valor válido"}            
         }
 
